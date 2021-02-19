@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "name": "Breaking Bad Cast",
+        "name": "Breaking Bad",
         "repo": "https://github.com/Mridul2820/breaking-bad-cast",
         "image": "breaking-bad-cast",
         "deploy": {
@@ -21,7 +21,7 @@
     },
     {
         "id": 2,
-        "name": "Create Recipe App",
+        "name": "Create Recipe",
         "repo": "https://github.com/Mridul2820/create-recipe-app",
         "image": "create-recipe-app",
         "deploy": {
@@ -61,7 +61,7 @@
     },
     {
         "id": 6,
-        "name": "Monsters Rolodex",
+        "name": "Monsters Roloex",
         "repo": "https://github.com/Mridul2820/monsters-rolodex",
         "image": "monsters-rolodex",
         "deploy": {

@@ -1,3 +1,5 @@
+$bp-small-3: 22em;      //352px
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -30,6 +32,15 @@
                 text-decoration: none;
                 width: 28px;
                 margin: 0 8px;
+                transition: .5s;
+
+                @media only screen and (max-width: $bp-small-3){
+                    width: 23px;
+                }
+
+                &:hover {
+                    transform: scale(1.1);
+                }
     
                 img {
                     width: 100%;
