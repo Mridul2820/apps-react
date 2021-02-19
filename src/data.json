@@ -1,0 +1,153 @@
+[
+    {
+        "id": 0,
+        "name": "Breaking Bad Cast",
+        "repo": "https://github.com/Mridul2820/breaking-bad-cast",
+        "image": "breaking-bad-cast",
+        "deploy": {
+            "netlify": "https://breaking-bad-react-m.netlify.app/",
+            "vercel": "https://breaking-bad-cast-two.vercel.app/"
+        }
+    },
+    {
+        "id": 1,
+        "name": "Codepen Clone",
+        "repo": "https://github.com/Mridul2820/codepen-clone",
+        "image": "codepen-clone",
+        "deploy": {
+            "netlify": "https://codepen-clone-react-js.netlify.app/",
+            "vercel": "https://codepen-clone-seven.vercel.app/"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Create Recipe App",
+        "repo": "https://github.com/Mridul2820/create-recipe-app",
+        "image": "create-recipe-app",
+        "deploy": {
+            "netlify": "https://recipelistapp.netlify.app/",
+            "vercel": "https://create-recipe-app.vercel.app/"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Ecommerce Clothing",
+        "repo": "https://github.com/Mridul2820/ecommerce-clothing",
+        "image": "ecommerce-clothing",
+        "deploy": {
+            "netlify": "https://ecommerce-clothing-react.netlify.app/",
+            "vercel": "https://ecommerce-clothing-opal.vercel.app/"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Firegram",
+        "repo": "https://github.com/Mridul2820/firegram",
+        "image": "firegram",
+        "deploy": {
+            "netlify": "https://insta-firebase.netlify.app/",
+            "vercel": "https://firegram-eta.vercel.app/"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Friend List",
+        "repo": "https://github.com/Mridul2820/friend-list",
+        "image": "friend-list",
+        "deploy": {
+            "netlify": "https://list-of-friends.netlify.app/",
+            "vercel": "https://friend-list-psi.vercel.app/"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Monsters Rolodex",
+        "repo": "https://github.com/Mridul2820/monsters-rolodex",
+        "image": "monsters-rolodex",
+        "deploy": {
+            "netlify": "https://monsters-rolodex-react.netlify.app/",
+            "vercel": "https://monsters-rolodex-fawn.vercel.app/"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Movie Search",
+        "repo": "https://github.com/Mridul2820/movie-search",
+        "image": "movie-search",
+        "deploy": {
+            "netlify": "https://movie-search-olive.netlify.app/",
+            "vercel": "https://movie-search-olive.vercel.app/"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Pagination",
+        "repo": "https://github.com/Mridul2820/react-pagination",
+        "image": "react-pagination",
+        "deploy": {
+            "netlify": "https://pagination-with-react.netlify.app/",
+            "vercel": "https://react-pagination-pi.vercel.app/"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Photo Filter",
+        "repo": "https://github.com/Mridul2820/photo-editor",
+        "image": "photo-editor",
+        "deploy": {
+            "netlify": "https://photo-filter-editor.netlify.app/",
+            "vercel": "https://photo-editor-three.vercel.app/"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Recipe App",
+        "repo": "https://github.com/Mridul2820/recipe-app",
+        "image": "recipe-app",
+        "deploy": {
+            "netlify": "https://get-recipe.netlify.app/",
+            "vercel": "https://recipe-app-alpha.vercel.app/"
+        }
+    },
+
+    {
+        "id": 11,
+        "name": "Task Tracker",
+        "repo": "https://github.com/Mridul2820/task-tracker",
+        "image": "task-tracker",
+        "deploy": {
+            "netlify": "https://task-tracker-react-app.netlify.app/",
+            "vercel": "https://task-tracker-six.vercel.app/"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Tic Tak Toe",
+        "repo": "https://github.com/Mridul2820/tic-tac-toe",
+        "image": "tic-tac-toe",
+        "deploy": {
+            "netlify": "https://tic-tac-toe-rs.netlify.app/",
+            "vercel": "https://tic-tac-toe-khaki.vercel.app/"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Tinder Clone",
+        "repo": "https://github.com/Mridul2820/tinder-clone",
+        "image": "tinder-clone",
+        "deploy": {
+            "netlify": "https://tinder-react-clone.netlify.app/",
+            "vercel": "https://tinder-clone-ecru.vercel.app/"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Wildfire Tracker",
+        "repo": "https://github.com/Mridul2820/wildfire-tracker",
+        "image": "",
+        "deploy": {
+            "netlify": "https://wildfire-tracker-react.netlify.app",
+            "vercel": "https://wildfire-tracker-lake.vercel.app/"
+        }
+    }
+]

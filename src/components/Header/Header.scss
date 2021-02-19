@@ -1,0 +1,45 @@
+.section-title {
+    display: flex;justify-content: center;align-items: center;
+    margin: 35px 0;
+
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+.section-title-center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+    width: 90vw;
+    max-width: 1000px;
+
+    .title-image {
+        width: 200px;
+
+        &.img-right {
+            justify-self: end;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .title-main {
+        text-align: center;
+
+        .title {
+            padding: 1rem 0 .5rem 0;
+        }
+
+        .underline {
+            width: 6rem;
+            height: .25rem;
+            background: skyblue;
+            margin-left: auto;
+            margin-right: auto;
+        }        
+    }
+
+}
+
