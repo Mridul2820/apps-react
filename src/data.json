@@ -144,7 +144,7 @@
         "id": 14,
         "name": "Wildfire Tracker",
         "repo": "https://github.com/Mridul2820/wildfire-tracker",
-        "image": "",
+        "image": "wildfire-tracker",
         "deploy": {
             "netlify": "https://wildfire-tracker-react.netlify.app",
             "vercel": "https://wildfire-tracker-lake.vercel.app/"

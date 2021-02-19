@@ -1,0 +1,7 @@
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 0 100px 80px 100px;
+    background-color: #f6f6f6;
+}
