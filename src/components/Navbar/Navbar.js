@@ -2,11 +2,11 @@ import React from 'react'
 import './Navbar.scss'
 
 const Navbar = () => {
-    return (
+    return ( 
         <div className='navbar'>
             <div className="nav-center">
                 <div className="navbar--logo">
-                    <img src="./assets/favicon.png" alt="logo mridul"/>
+                    <img src="./assets/logo.png" alt="logo mridul"/>
                     <h2>ridul</h2>
                 </div>
                 <div className="navbar--social">
