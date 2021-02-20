@@ -10,9 +10,11 @@ $bp-small-3: 22em;      //352px
     .nav-center {
         width: 90vw;
         max-width: 1170px;
-        display: flex;
+
+        display: grid;
         align-items: center;
-        justify-content: space-between;
+        grid-template-columns: auto 1fr auto;
+        gap: 1.5rem;
 
         .navbar--logo {
             display: flex;
@@ -21,6 +23,15 @@ $bp-small-3: 22em;      //352px
     
             img {
                 width: 30px;
+            }
+        }
+
+        .buymeacoffee {
+            justify-self: end;
+
+            img {
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: box-shadow 0.25s ease;
             }
         }
     
