@@ -1,6 +1,5 @@
 [
     {
-        "id": 0,
         "name": "Breaking Bad",
         "repo": "https://github.com/Mridul2820/breaking-bad-cast",
         "image": "breaking-bad-cast",
@@ -10,7 +9,6 @@
         }
     },
     {
-        "id": 1,
         "name": "Codepen Clone",
         "repo": "https://github.com/Mridul2820/codepen-clone",
         "image": "codepen-clone",
@@ -20,7 +18,6 @@
         }
     },
     {
-        "id": 2,
         "name": "Create Recipe",
         "repo": "https://github.com/Mridul2820/create-recipe-app",
         "image": "create-recipe-app",
@@ -30,7 +27,6 @@
         }
     },
     {
-        "id": 3,
         "name": "Ecommerce Clothing",
         "repo": "https://github.com/Mridul2820/ecommerce-clothing",
         "image": "ecommerce-clothing",
@@ -40,7 +36,6 @@
         }
     },
     {
-        "id": 4,
         "name": "Firegram",
         "repo": "https://github.com/Mridul2820/firegram",
         "image": "firegram",
@@ -50,7 +45,6 @@
         }
     },
     {
-        "id": 5,
         "name": "Friend List",
         "repo": "https://github.com/Mridul2820/friend-list",
         "image": "friend-list",
@@ -60,7 +54,15 @@
         }
     },
     {
-        "id": 6,
+        "name": "Menu App",
+        "repo": "https://github.com/Mridul2820/menu-app",
+        "image": "menu-app",
+        "deploy": {
+            "netlify": "https://menu-app-reactjs.netlify.app/",
+            "vercel": "https://menu-app-orpin.vercel.app/"
+        }
+    },
+    {
         "name": "Monsters Roloex",
         "repo": "https://github.com/Mridul2820/monsters-rolodex",
         "image": "monsters-rolodex",
@@ -70,7 +72,6 @@
         }
     },
     {
-        "id": 7,
         "name": "Movie Search",
         "repo": "https://github.com/Mridul2820/movie-search",
         "image": "movie-search",
@@ -80,7 +81,6 @@
         }
     },
     {
-        "id": 8,
         "name": "Pagination",
         "repo": "https://github.com/Mridul2820/react-pagination",
         "image": "react-pagination",
@@ -90,7 +90,6 @@
         }
     },
     {
-        "id": 9,
         "name": "Photo Filter",
         "repo": "https://github.com/Mridul2820/photo-editor",
         "image": "photo-editor",
@@ -100,7 +99,6 @@
         }
     },
     {
-        "id": 10,
         "name": "Recipe App",
         "repo": "https://github.com/Mridul2820/recipe-app",
         "image": "recipe-app",
@@ -111,7 +109,6 @@
     },
 
     {
-        "id": 11,
         "name": "Task Tracker",
         "repo": "https://github.com/Mridul2820/task-tracker",
         "image": "task-tracker",
@@ -131,7 +128,6 @@
         }
     },
     {
-        "id": 13,
         "name": "Tinder Clone",
         "repo": "https://github.com/Mridul2820/tinder-clone",
         "image": "tinder-clone",
@@ -141,7 +137,6 @@
         }
     },
     {
-        "id": 14,
         "name": "Wildfire Tracker",
         "repo": "https://github.com/Mridul2820/wildfire-tracker",
         "image": "wildfire-tracker",
