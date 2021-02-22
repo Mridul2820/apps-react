@@ -1,13 +1,21 @@
 import React from 'react'
 import './Project.scss'
 
-const Project = ({ project }) => {
+const Project = ({ project, setSelectedimg }) => {
+
+    const imgUrl = `./image/${project.image}.png`
     return (
         <div className="project">
             <h1 className="project-title" >{project.name}</h1>
 
             <div className="project-image">
-                <img src={`./image/${project.image}.png`} alt={project.name} />
+                <img 
+                    src={`./image/${project.image}.png`} 
+                    alt={project.name} 
+                    onClick={() => {
+                        setSelectedimg(imgUrl)
+                    }}
+                />
             </div>
 
             <div className="project-repo">
