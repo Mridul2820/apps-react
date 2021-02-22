@@ -1,9 +1,11 @@
 import React from 'react'
 import './Project.scss'
 
-const Project = ({ project, setSelectedimg }) => {
+const Project = ({ project, setSelectedModal }) => {
 
-    const imgUrl = `./image/${project.image}.png`
+    const modalUrl = `./image/${project.image}.png`
+    // const modalUrl = project.deploy.netlify
+
     return (
         <div className="project">
             <h1 className="project-title" >{project.name}</h1>
@@ -13,9 +15,11 @@ const Project = ({ project, setSelectedimg }) => {
                     src={`./image/${project.image}.png`} 
                     alt={project.name} 
                     onClick={() => {
-                        setSelectedimg(imgUrl)
+                        setSelectedModal(modalUrl)
                     }}
                 />
+
+
             </div>
 
             <div className="project-repo">

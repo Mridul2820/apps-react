@@ -1,16 +1,17 @@
 import React from 'react'
 import './Modal.scss'
 
-const Modal = ({ selectedImg, setSelectedimg }) => {
+const Modal = ({ selectedModal, setSelectedModal }) => {
     const handleClick = (e) => {
         if(e.target.classList.contains('backdrop')) {
-            setSelectedimg(null)
+            setSelectedModal(null)
         }
     }
 
     return (
         <div className="backdrop" onClick={handleClick} >
-            <img src={selectedImg} alt="modal pic"/>
+            {/* <iframe src={selectedModal}  frameborder="0" width="100%" height="100%"></iframe> */}
+            <img src={selectedModal} alt="modal pic"/>
         </div>
     )
 }

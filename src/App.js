@@ -7,16 +7,19 @@ import data from './data.json'
 import './App.scss'
 
 const App = () => {
-    const [selectedImg, setSelectedimg] = useState(null)
+    const [selectedModal, setSelectedModal] = useState(null)
 
     return (
         <div className="container">
             <Navbar />
             <Header />
-            <ProjectGrid projects={data} setSelectedimg={setSelectedimg} />
-            { selectedImg && <Modal selectedImg={selectedImg} setSelectedimg={setSelectedimg} />}
+
+            <ProjectGrid projects={data} setSelectedModal={setSelectedModal} />
+            
+            { selectedModal && <Modal selectedModal={selectedModal} setSelectedModal={setSelectedModal} />}
+
             {
-                selectedImg ? document.body.classList.add('modal-open') : document.body.classList.remove('modal-open')
+                selectedModal ? document.body.classList.add('modal-open') : document.body.classList.remove('modal-open')
             }
         </div>
     )
