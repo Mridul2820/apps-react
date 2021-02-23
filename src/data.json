@@ -4,8 +4,8 @@
         "repo": "https://github.com/Mridul2820/accordion-react",
         "image": "accordion",
         "deploy": {
-            "netlify": "https://breaking-bad-react-m.netlify.app/",
-            "vercel": "https://breaking-bad-cast-two.vercel.app/"
+            "netlify": "https://accordion-one.netlify.app/",
+            "vercel": "https://accordion-one.vercel.app/"
         }
     },
     {
