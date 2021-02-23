@@ -27,6 +27,15 @@
         }
     },
     {
+        "name": "Color Generator",
+        "repo": "https://github.com/Mridul2820/color-generator",
+        "image": "color-generator",
+        "deploy": {
+            "netlify": "https://color-generator-app-react.netlify.app/",
+            "vercel": "https://color-generator-kappa.vercel.app/"
+        }
+    },
+    {
         "name": "Create Recipe",
         "repo": "https://github.com/Mridul2820/create-recipe-app",
         "image": "create-recipe-app",
