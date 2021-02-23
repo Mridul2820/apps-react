@@ -1,5 +1,14 @@
 [
     {
+        "name": "Accordion",
+        "repo": "https://github.com/Mridul2820/accordion-react",
+        "image": "accordion",
+        "deploy": {
+            "netlify": "https://breaking-bad-react-m.netlify.app/",
+            "vercel": "https://breaking-bad-cast-two.vercel.app/"
+        }
+    },
+    {
         "name": "Breaking Bad",
         "repo": "https://github.com/Mridul2820/breaking-bad-cast",
         "image": "breaking-bad-cast",
