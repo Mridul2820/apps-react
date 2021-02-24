@@ -50,7 +50,7 @@ $bp-small-3: 22em;      //352px
         text-align: center;
 
         .title {
-            padding: 1rem 0 .5rem 0;
+            padding: .5rem 0;
 
             @media only screen and (max-width: $bp-medium-1){
                 font-size: 25px;
@@ -68,15 +68,18 @@ $bp-small-3: 22em;      //352px
         .underline {
             width: 6rem;
             height: .25rem;
-            background: skyblue;
+            background: #c50404;
             margin-left: auto;
             margin-right: auto;
 
             @media only screen and (max-width: $bp-small-3){
                 width: 4rem;
             }
-    
-        }        
+        }  
+        
+        .project-number {
+            margin-top: 5px;
+        }
     }
 
 }

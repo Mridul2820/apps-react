@@ -12,7 +12,7 @@ const App = () => {
     return (
         <div className="container">
             <Navbar />
-            <Header />
+            <Header projects={data} />
 
             <ProjectGrid projects={data} setSelectedModal={setSelectedModal} />
             

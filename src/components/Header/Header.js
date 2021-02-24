@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.scss'
 
-const Header = () => {
+const Header = ({ projects }) => {
     return (
         <div className="section-title">
             <div className="section-title-center">
@@ -11,13 +11,13 @@ const Header = () => {
                 <div className="title-main">
                     <h1 className="title">React Apps</h1>
                     <div className="underline"></div>
+                    <h5 className="project-number">Total Projects : {projects.length}</h5>
                 </div>
                 <div className="title-image img-right">
                     <img src="./assets/image-section-art.svg" alt="image-section"/>
                 </div>
             </div>
         </div>
-
     )
 }
 
