@@ -72,6 +72,15 @@
         }
     },
     {
+        "name": "Markdown Preview",
+        "repo": "https://github.com/Mridul2820/markdown-preview",
+        "image": "markdown-preview",
+        "deploy": {
+            "netlify": "https://markdown-preview-react-js.netlify.app/",
+            "vercel": "https://markdown-preview-two.vercel.app/"
+        }
+    },
+    {
         "name": "Menu App",
         "repo": "https://github.com/Mridul2820/menu-app",
         "image": "menu-app",
