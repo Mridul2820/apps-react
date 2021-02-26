@@ -136,6 +136,15 @@
     },
 
     {
+        "name": "Stock Photos",
+        "repo": "https://github.com/Mridul2820/stock-photos",
+        "image": "stock-photos",
+        "deploy": {
+            "netlify": "https://stock-photo-react.netlify.app/",
+            "vercel": "https://stock-photos.vercel.app/"
+        }
+    },
+    {
         "name": "Task Tracker",
         "repo": "https://github.com/Mridul2820/task-tracker",
         "image": "task-tracker",
