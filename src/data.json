@@ -107,6 +107,15 @@
             "vercel": "https://movie-search-olive.vercel.app/"
         }
     },
+        {
+        "name": "Music Player",
+        "repo": "https://github.com/Mridul2820/music-player",
+        "image": "music-player",
+        "deploy": {
+            "netlify": "https://music-playr.netlify.app/",
+            "vercel": "https://music-player-mridul28.vercel.app/"
+        }
+    },
     {
         "name": "Pagination",
         "repo": "https://github.com/Mridul2820/react-pagination",
