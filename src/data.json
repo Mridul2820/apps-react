@@ -18,6 +18,15 @@
         }
     },
     {
+        "name": "Capture Portofolio",
+        "repo": "https://github.com/Mridul2820/capture-portofolio",
+        "image": "capture-portofolio",
+        "deploy": {
+            "netlify": "https://capture-portofolio.netlify.app/",
+            "vercel": "https://capture-portofolio-jet.vercel.app/"
+        }
+    },
+    {
         "name": "Codepen Clone",
         "repo": "https://github.com/Mridul2820/codepen-clone",
         "image": "codepen-clone",
