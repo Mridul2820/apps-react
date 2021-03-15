@@ -191,6 +191,15 @@
         }
     },
     {
+        "name": "Weather App",
+        "repo": "https://github.com/Mridul2820/weather-app",
+        "image": "weather-app",
+        "deploy": {
+            "netlify": "https://weather-appm.netlify.app/",
+            "vercel": "https://weather-app-delta-henna.vercel.app/"
+        }
+    },
+    {
         "name": "Wildfire Tracker",
         "repo": "https://github.com/Mridul2820/wildfire-tracker",
         "image": "wildfire-tracker",
