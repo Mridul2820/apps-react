@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Header from './components/Header/Header'
-import ProjectGrid from './components/ProjectGrid/ProjectGrid'
-import Modal from './components/Modal/Modal'
+import Navbar from './components/Navbar'
+import Header from './components/Header'
+import ProjectGrid from './components/ProjectGrid'
+import Modal from './components/Modal'
 import data from './data.json'
-import './App.scss'
+import './styles/app.scss'
 
 const App = () => {
     const [selectedModal, setSelectedModal] = useState(null)

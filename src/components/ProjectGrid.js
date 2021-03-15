@@ -1,7 +1,6 @@
 import React from 'react'
 import uuid from 'react-uuid'
-import Project from '../Project/Project'
-import './ProjectGrid.scss'
+import Project from './Project'
 
 const ProjectGrid = ({ projects, setSelectedModal  }) => {
     return (
