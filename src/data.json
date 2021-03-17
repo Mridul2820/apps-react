@@ -108,6 +108,15 @@
         }
     },
     {
+        "name": "Movie DB",
+        "repo": "https://github.com/Mridul2820/movie-db",
+        "image": "movie-db",
+        "deploy": {
+            "netlify": "https://search-movie-db.netlify.app/",
+            "vercel": "https://movie-db-ruby.vercel.app/"
+        }
+    },
+    {
         "name": "Movie Search",
         "repo": "https://github.com/Mridul2820/movie-search",
         "image": "movie-search",
@@ -116,7 +125,7 @@
             "vercel": "https://movie-search-olive.vercel.app/"
         }
     },
-        {
+    {
         "name": "Music Player",
         "repo": "https://github.com/Mridul2820/music-player",
         "image": "music-player",
