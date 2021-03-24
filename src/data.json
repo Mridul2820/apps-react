@@ -81,6 +81,15 @@
         }
     },
     {
+        "name": "Ignite",
+        "repo": "https://github.com/Mridul2820/ignite",
+        "image": "ignite",
+        "deploy": {
+            "netlify": "https://ignite-react-app.netlify.app/",
+            "vercel": "https://ignite-navy.vercel.app/"
+        }
+    },
+    {
         "name": "Markdown Preview",
         "repo": "https://github.com/Mridul2820/markdown-preview",
         "image": "markdown-preview",
