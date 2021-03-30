@@ -135,6 +135,15 @@
         }
     },
     {
+        "name": "Movie Series Hub",
+        "repo": "https://github.com/Mridul2820/movie-series-hub",
+        "image": "movie-series-hub",
+        "deploy": {
+            "netlify": "https://movie-series-hub.netlify.app/",
+            "vercel": "https://movie-series-hub.vercel.app/"
+        }
+    },
+    {
         "name": "Music Player",
         "repo": "https://github.com/Mridul2820/music-player",
         "image": "music-player",
