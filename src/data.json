@@ -153,6 +153,15 @@
         }
     },
     {
+        "name": "Netflix Build",
+        "repo": "https://github.com/Mridul2820/netflix-build",
+        "image": "netflix-build",
+        "deploy": {
+            "netlify": "https://netflix-build-m.netlify.app/",
+            "vercel": "https://netflix-build-beta.vercel.app/"
+        }
+    },
+    {
         "name": "Pagination",
         "repo": "https://github.com/Mridul2820/react-pagination",
         "image": "react-pagination",
