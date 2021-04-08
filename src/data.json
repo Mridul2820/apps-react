@@ -243,5 +243,14 @@
             "netlify": "https://wildfire-tracker-react.netlify.app",
             "vercel": "https://wildfire-tracker-lake.vercel.app/"
         }
+    },
+    {
+        "name": "Word Dictionary",
+        "repo": "https://github.com/Mridul2820/word-dictionary",
+        "image": "word-dictionary",
+        "deploy": {
+            "netlify": "https://word-dictionary.netlify.app/",
+            "vercel": "https://word-dictionary.vercel.app/"
+        }
     }
 ]
