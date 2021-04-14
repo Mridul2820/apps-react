@@ -90,6 +90,15 @@
         }
     },
     {
+        "name": "Inshorts Clone",
+        "repo": "https://github.com/Mridul2820/inshorts-clone",
+        "image": "inshorts-clone",
+        "deploy": {
+            "netlify": "https://inshorts-react.netlify.app/",
+            "vercel": "https://inshorts-clone.vercel.app/"
+        }
+    },
+    {
         "name": "Markdown Preview",
         "repo": "https://github.com/Mridul2820/markdown-preview",
         "image": "markdown-preview",
