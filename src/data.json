@@ -197,7 +197,14 @@
             "vercel": "https://recipe-app-alpha.vercel.app/"
         }
     },
-
+    {
+        "name": "Spotify Better",
+        "repo": "https://github.com/Mridul2820/spotify-better",
+        "image": "spotify-better",
+        "deploy": {
+            "vercel": "https://spotify-better.vercel.app/"
+        }
+    },
     {
         "name": "Stock Photos",
         "repo": "https://github.com/Mridul2820/stock-photos",
@@ -233,6 +240,15 @@
         "deploy": {
             "netlify": "https://tinder-react-clone.netlify.app/",
             "vercel": "https://tinder-clone-ecru.vercel.app/"
+        }
+    },
+    {
+        "name": "Trading Website",
+        "repo": "https://github.com/Mridul2820/trading-website",
+        "image": "trading-website",
+        "deploy": {
+            "netlify": "https://trading-react-demo.netlify.app/",
+            "vercel": "https://trading-website.vercel.app/"
         }
     },
     {

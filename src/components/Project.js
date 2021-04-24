@@ -30,8 +30,16 @@ const Project = ({ project, setSelectedModal }) => {
 
 
             <div className="deploy">
-                <a target='_blank' href={project.deploy.netlify} >Netlify</a>
-                <a target='_blank' href={project.deploy.vercel} >Vercel</a>
+                {project.deploy.netlify && 
+                    <a target='_blank' href={project.deploy.netlify} >
+                        Netlify
+                    </a>
+                }
+                {project.deploy.vercel && 
+                    <a target='_blank' href={project.deploy.vercel} >
+                        Vercel
+                    </a>
+                }
             </div>
         </div>
     )
