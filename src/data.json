@@ -11,7 +11,7 @@
     {
         "name": "Airbnb Clone",
         "repo": "https://github.com/Mridul2820/airbnb-clone",
-        "image": "toi-clone",
+        "image": "airbnb-clone",
         "deploy": {
             "netlify": "https://airbnb-clonereact.netlify.app/",
             "vercel": "https://airbnb-clone-sigma.vercel.app/"
