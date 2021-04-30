@@ -9,6 +9,15 @@
         }
     },
     {
+        "name": "Airbnb Clone",
+        "repo": "https://github.com/Mridul2820/airbnb-clone",
+        "image": "toi-clone",
+        "deploy": {
+            "netlify": "https://airbnb-clonereact.netlify.app/",
+            "vercel": "https://airbnb-clone-sigma.vercel.app/"
+        }
+    },
+    {
         "name": "Breaking Bad",
         "repo": "https://github.com/Mridul2820/breaking-bad-cast",
         "image": "breaking-bad-cast",
@@ -243,11 +252,19 @@
         }
     },
     {
+        "name": "TOI Clone",
+        "repo": "https://github.com/Mridul2820/toi-clone",
+        "image": "toi-clone",
+        "deploy": {
+            "netlify": "https://toi-clone.netlify.app/",
+            "vercel": "http://toi-clone.vercel.app/"
+        }
+    },
+    {
         "name": "Trading Website",
         "repo": "https://github.com/Mridul2820/trading-website",
         "image": "trading-website",
         "deploy": {
-            "netlify": "https://trading-react-demo.netlify.app/",
             "vercel": "https://trading-website.vercel.app/"
         }
     },
