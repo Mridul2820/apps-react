@@ -63,6 +63,15 @@
         }
     },
     {
+        "name": "Disney+ Clone",
+        "repo": "https://github.com/Mridul2820/disney-plus-clone",
+        "image": "disney-plus-clone",
+        "deploy": {
+            "netlify": "https://disney-plus-react.netlify.app/",
+            "vercel": "https://disney-plus-clone-gilt.vercel.app/"
+        }
+    },
+    {
         "name": "Ecommerce Clothing",
         "repo": "https://github.com/Mridul2820/ecommerce-clothing",
         "image": "ecommerce-clothing",
@@ -87,6 +96,15 @@
         "deploy": {
             "netlify": "https://list-of-friends.netlify.app/",
             "vercel": "https://friend-list-psi.vercel.app/"
+        }
+    },
+    {
+        "name": "Hulu Clone",
+        "repo": "https://github.com/Mridul2820/hulu-clone",
+        "image": "hulu-clone",
+        "deploy": {
+            "netlify": "https://hulu-clone-react.netlify.app/",
+            "vercel": "https://hulu-clone-zeta-blue.vercel.app/"
         }
     },
     {
