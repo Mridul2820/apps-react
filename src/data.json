@@ -99,6 +99,15 @@
         }
     },
     {
+        "name": "Google Clone",
+        "repo": "https://github.com/Mridul2820/google-clone",
+        "image": "google-clone",
+        "deploy": {
+            "netlify": "https://google-clone-one.netlify.app/",
+            "vercel": "https://google-clone-blond-one.vercel.app/"
+        }
+    },
+    {
         "name": "Hulu Clone",
         "repo": "https://github.com/Mridul2820/hulu-clone",
         "image": "hulu-clone",
