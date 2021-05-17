@@ -225,12 +225,30 @@
         }
     },
     {
+        "name": "Eeal Estate Site",
+        "repo": "https://github.com/Mridul2820/real-estate-site",
+        "image": "real-estate-site",
+        "deploy": {
+            "netlify": "https://the-real-estate.netlify.app/",
+            "vercel": "https://real-estate-site-nu.vercel.app/"
+        }
+    },
+    {
         "name": "Recipe App",
         "repo": "https://github.com/Mridul2820/recipe-app",
         "image": "recipe-app",
         "deploy": {
             "netlify": "https://get-recipe.netlify.app/",
             "vercel": "https://recipe-app-alpha.vercel.app/"
+        }
+    },
+    {
+        "name": "Restaurant Site",
+        "repo": "https://github.com/Mridul2820/restaurant-site",
+        "image": "restaurant-site",
+        "deploy": {
+            "netlify": "https://the-burger-zone.netlify.app/",
+            "vercel": "https://restaurant-site.vercel.app/"
         }
     },
     {
