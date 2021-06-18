@@ -80,6 +80,14 @@
             "vercel": "https://ecommerce-clothing-opal.vercel.app/"
         }
     },
+        {
+        "name": "Firechat",
+        "repo": "https://github.com/Mridul2820/firebase-chat-app",
+        "image": "firebase-chat-app",
+        "deploy": {
+            "vercel": "https://firechat-app.vercel.app/"
+        }
+    },
     {
         "name": "Firegram",
         "repo": "https://github.com/Mridul2820/firegram",
@@ -225,7 +233,23 @@
         }
     },
     {
-        "name": "Eeal Estate Site",
+        "name": "Post Dashboard",
+        "repo": "https://github.com/Mridul2820/post-dashboard",
+        "image": "post-dashboard",
+        "deploy": {
+            "vercel": "http://post-dashboard.vercel.app/"
+        }
+    },
+    {
+        "name": "Product Landing",
+        "repo": "https://github.com/Mridul2820/product-landing",
+        "image": "product-landing",
+        "deploy": {
+            "vercel": "http://product-landing-pearl.vercel.app/"
+        }
+    },
+    {
+        "name": "Real Estate Site",
         "repo": "https://github.com/Mridul2820/real-estate-site",
         "image": "real-estate-site",
         "deploy": {
