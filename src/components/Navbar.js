@@ -122,7 +122,7 @@ const StyledNavLinks = styled.div`
         border-radius: 3px;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-transform: uppercase;
         font-weight: 500;
         transition: 0.2s ease-in-out;

@@ -18,8 +18,6 @@ import Projects from './pages/Projects'
 // import './styles/app.scss'
 
 const App = () => {
-    const [selectedModal, setSelectedModal] = useState(null)
-
     return (
         <BrowserRouter>
             <GlobalStyle />
@@ -40,12 +38,6 @@ const App = () => {
                 />
             </Switch>
             <Footer />
-            {/* <ProjectGrid projects={data} setSelectedModal={setSelectedModal} /> */}
-            {/* { selectedModal && <Modal selectedModal={selectedModal} setSelectedModal={setSelectedModal} />}
-
-            {
-                selectedModal ? document.body.classList.add('modal-open') : document.body.classList.remove('modal-open')
-            } */}
         </BrowserRouter>
     )
 }
