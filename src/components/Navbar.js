@@ -1,36 +1,156 @@
-import React from 'react'
+import React, { useState } from 'react'
+import styled from 'styled-components'
+import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
+
+    const [nav, setNav] = useState(false)
+
+    const changeBackground = () => {
+        if(window.scrollY >= 50) {
+            setNav(true)
+        }
+        else {
+            setNav(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
     return (
-        <div className='navbar'>
-            <div className="nav-center">
-                <div className="navbar--logo">
-                    <img src="./assets/favicon.png" alt="logo mridul"/>
-                    <h2>ridul</h2>
-                </div>
-                <div className="buymeacoffee">
-                    <a href="https://www.buymeacoffee.com/Mriduls" target="_blank">
-                        <img 
-                            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
-                            alt="Buy Me A Coffee" 
-                            style={{height: '38px' , width: '130px' }} 
-                        />
-                    </a>
-                </div>
-                <div className="navbar--social">
-                    <a target="_blank" href="https://github.com/Mridul2820">
-                        <img src="./assets/github.svg" alt="Github Mridul"/>
-                    </a>
-                    <a target="_blank" href="https://www.instagram.com/i_mridul/">
-                        <img src="./assets/instagram.svg" alt="Instagram Mridul"/>
-                    </a>
-                    <a target="_blank" href="https://twitter.com/i_mridul">
-                        <img src="./assets/twitter.svg" alt="Twitter Mridul"/>
-                    </a>
-                </div>                
-            </div>
-        </div>
+        <StyledNavbar className={nav ? 'navbar active' : 'navbar'}>
+            <StyledNav>
+                <StyledLogo>
+                    <NavLink 
+                        to="/" 
+                        className="logo" 
+                        exact
+                    >
+                        <img src={logo} alt="logo mridul"/>
+                        <h2>ridul</h2>
+                    </NavLink>
+                </StyledLogo>
+                <StyledNavLinks>
+                    <NavLink 
+                        to="/projects" 
+                        className="navlink"
+                        activeClassName="navlink-active"
+                    >
+                        Projects
+                    </NavLink>
+                    <NavLink 
+                        to="/about"
+                        className="navlink"
+                        activeClassName="navlink-active"
+                    >
+                        About Me!
+                    </NavLink>
+                </StyledNavLinks>
+            </StyledNav>
+        </StyledNavbar>
     )
 }
+
+
+const StyledNavbar = styled.div`
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3.5rem;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    transition: 0.6s ease-in-out;
+
+    @media (max-width: 400px) {
+        height: 3rem;
+    }
+
+    &.active{
+        box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
+    }
+`
+
+const StyledNav = styled.nav`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 90vw;
+    max-width: 1170px;
+
+    @media (max-width: 500px) {
+        width: 95vw;
+    }
+`
+
+const StyledLogo = styled.div`
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        img {
+            width: 26px;
+
+            @media (max-width: 400px) {
+                width: 22px;
+            }
+        }
+    
+        h2 {
+            font-size: 1.2rem;
+            font-weight: bold;
+
+            @media (max-width: 400px) {
+                font-size: 1.1rem;
+            }
+        }
+    }
+`
+
+const StyledNavLinks = styled.div`
+    .navlink {
+        font-weight: 600;
+        margin: 0 5px;
+        padding: 8px 14px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        transition: 0.2s ease-in-out;
+
+        @media (max-width: 500px) {
+            padding: 4px 8px;
+        }
+
+        @media (max-width: 400px) {
+            padding: 3px 6px;
+            font-size: 1rem;
+            margin-left: 5px;
+            margin-right: 0;
+        }
+
+        &:hover {
+            background-color: #023047;
+            color: #fff;
+        }
+    }
+
+    .navlink-active {
+        color: #fff;
+        background-color: #023047;
+        box-shadow: 3px 6px 20px rgba(64, 149, 198, 0.336);
+    }
+`
+
+
 
 export default Navbar
