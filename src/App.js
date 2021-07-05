@@ -11,12 +11,6 @@ import About from './pages/About'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 
-// import Header from './components/Header'
-// import ProjectGrid from './components/ProjectGrid'
-// import Modal from './components/Modal'
-// import data from './data.json'
-// import './styles/app.scss'
-
 const App = () => {
     return (
         <BrowserRouter>
