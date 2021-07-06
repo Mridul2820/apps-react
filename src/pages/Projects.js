@@ -29,14 +29,12 @@ const Projects = () => {
             tags
         }`)
         .then((data) => {
-            const sorted = [...data].sort((a, b) => b.name - a.name)
-            
-            setProjectData(sorted)
+            let obj = [...data];
+            obj.sort((a, b) => a.title > b.title ? 1 : -1)
+            setProjectData(obj)
         })
         .catch(console.error);
     }, [])
-
-    console.log(projectData);
 
     return (
         <StyledMain>
