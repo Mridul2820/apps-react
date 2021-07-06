@@ -28,7 +28,11 @@ const Projects = () => {
             varcel,
             tags
         }`)
-        .then((data) => setProjectData(data))
+        .then((data) => {
+            const sorted = [...data].sort((a, b) => b.name - a.name)
+            
+            setProjectData(sorted)
+        })
         .catch(console.error);
     }, [])
 
@@ -68,7 +72,7 @@ const StyledMain = styled.main`
 const StyledGrid = styled.section`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    gap: 2rem;
     padding: 30px 100px 80px 100px;
     background-color: #f0fff4;
 

@@ -126,6 +126,7 @@ const StyledNavLinks = styled.div`
         text-transform: uppercase;
         font-weight: 500;
         transition: 0.2s ease-in-out;
+        font-family: 'Noto Sans JP', sans-serif;
 
         @media (max-width: 500px) {
             padding: 4px 8px;

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
-import github from '../../assets/social/github.svg'
+import { BsBoxArrowUpRight } from 'react-icons/bs'
+import { FaGithub } from 'react-icons/fa'
 
 const ProjectsCard = ({ project, setSelectedModal }) => {
     return (
@@ -31,11 +32,12 @@ const ProjectsCard = ({ project, setSelectedModal }) => {
                 <StyledLink>
                     {project.varcel && 
                         <a target='_blank' rel="noreferrer" href={project.varcel} className="varcel" >
-                            View Demo
+                            <BsBoxArrowUpRight />
+                            <span>Demo</span>
                         </a>
                     }
                     <a target='_blank' rel="noreferrer" href={project.githubRepo} className="repo">
-                        <img src={github} alt={project.title}/>
+                        <FaGithub size="20px" />
                         <p>Github</p>
                     </a>
                 </StyledLink>
@@ -50,7 +52,6 @@ const StyledArticle = styled.article`
     overflow: hidden;
     box-shadow: 0 2px 20px rgba(0, 0, 0, .2);
     transition: 0.25s ease;
-    // width: 300px;
 
     &:hover {
         box-shadow: 0 2px 20px rgba(0, 0, 0, .6);
@@ -117,11 +118,16 @@ const StyledLink = styled.div`
         box-shadow: 3px 6px 20px rgba(64, 149, 198, 0.336);
         border-radius: 50px;
         color:#ffffff;
+        font-family: 'Noto Sans JP', sans-serif;
     
         &:hover{
             background-color: transparent;
             transition: all ease 0.5s;
             color: #3d2514;
+        }
+
+        span {
+            margin-left: 5px;
         }
     }
 
@@ -134,10 +140,17 @@ const StyledLink = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: 'Noto Sans JP', sans-serif;
 
-        img {
-            width: 22px;
-            margin-right: 5px;
+        &:hover{
+            background-color: #000;
+            transition: all ease 0.5s;
+            color: #fff;
+            box-shadow: 3px 6px 20px rgba(0, 0, 0, 0.336);
+        }
+
+        p {
+            margin-left: 5px;
         }
     }
 `
