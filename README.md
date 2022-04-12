@@ -1,1 +1,1 @@
-# Some Projects of React
+# List of React Projects (Deprecated)
